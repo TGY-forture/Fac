@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* @font-face {
+  font-family: 'kaiti';
+  src: url(./simkai.ttf);
+  color: grey;
+}
+body {
+  font-family: 'kaiti';
+} */
+body {
+  font-family: STKaiti;
+}
+input::-ms-clear ,input::-ms-reveal {
+  display: none;
+}
