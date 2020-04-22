@@ -11,7 +11,7 @@ import "./axios.js"
 //   return originalPush.call(this, location).catch(err => err)
 // }
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 new Vue({
   router,
