@@ -32,7 +32,7 @@ export default {
     }
   },
   mounted() {
-    const natuser = localStorage.getItem('user')
+    const natuser = localStorage.getItem('user');
     axios.post('/api/getwork.php',{
         user: natuser
       }).then(
