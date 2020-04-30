@@ -4,6 +4,7 @@
     <transition name="slide-fade"><router-view></router-view></transition>
     <footbar></footbar>
     <welcome></welcome>
+    <a href="http://www.beian.miit.gov.cn">渝ICP备20004410号-1</a>
   </div>
 </template>
 
@@ -54,5 +55,11 @@ export default {
   transform: translateY(400px);
   opacity: 0;
 }
-
+a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  display: block;
+  width: auto;
+}
 </style>
